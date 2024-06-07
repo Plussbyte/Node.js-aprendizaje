@@ -12,6 +12,3 @@ fs.readdir('.', (err, files) => { //<---- Lee el contenido del directorio actual
 })
 
 
-fs.statSync('./archivo.txt') //<---- Con esto verificamos si un archivo existe
-
-
