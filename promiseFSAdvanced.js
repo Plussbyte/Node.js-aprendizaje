@@ -1,4 +1,4 @@
-const fs = require('Node:fs/Promise') //<---- trabajamos con promesas.
+const fs = require('node:fs/promises') //<---- trabajamos con promesas.
 
 const folder = process.argv[2] ?? '.'
 
@@ -14,3 +14,5 @@ fs.readdir(folder)
             return; // <---- Finaliza la ejecución del código
         }
     })
+
+//NOTA: En la consola se pueden buscar archivos dentro de carpetas Ejemplo: node promiseFSAdvanced.js '.\Export e Import\'
