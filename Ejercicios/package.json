@@ -12,5 +12,8 @@
     "server"
   ],
   "author": "Samuel Esteban Estrada Velasquez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "^1.0.1"
+  }
 }

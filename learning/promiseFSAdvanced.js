@@ -1,4 +1,6 @@
 const fs = require('node:fs/promises') //<---- trabajamos con promesas.
+const archivo1 = './archivo.txt'
+const archivo2 = './archivo2.txt'
 
 const folder = process.argv[2] ?? '.'
 
